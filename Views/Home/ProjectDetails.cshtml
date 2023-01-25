@@ -1,0 +1,128 @@
+﻿@model ProjectManagement.Models.Core.Project
+<div class="page-title">
+    <div class="title_left">
+        <h3>ProjectDetails</h3>
+    </div>
+
+    <div class="title_right">
+        <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <ul class="nav navbar-right panel_toolbox">
+                    <li>
+                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+
+                <div>
+                    <label>Name:</label>
+                    <label>@Model.Name</label>
+
+                </div>
+                @if (!User.IsInRole("Developer"))
+                {
+
+                    <div>
+                        <label>Cost:</label>
+                        <label>@Model.Cost</label>
+
+                    </div>
+                    
+                }
+              
+
+                <div>
+                    <label>Deadline:</label>
+                    <label>@Model.DeadLine.Value.ToShortDateString()</label>
+
+                </div>
+
+                <div>
+                    <label>Estimation Phase Timeline:</label>
+                    <label>start: @Model.EstimationPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.EstimationPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+                <div>
+                    <label>Analysis  Timeline:</label>
+                    <label>start: @Model.AnalysisPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.AnalysisPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+                <div>
+                    <label>Fronend Development Phase Timeline:</label>
+                    <label>start: @Model.FronendDevelopmentPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.FronendDevelopmentPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+
+
+                <div>
+                    <label>Backend Development Phase Timeline:</label>
+                    <label>start: @Model.BackendDevelopmentPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.BackendDevelopmentPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+
+
+                <div>
+                    <label>Release Phase Timeline:</label>
+                    <label>start: @Model.ReleasePhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.ReleasePhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+
+
+                <div>
+                    <label>Testing Phase Timeline:</label>
+                    <label>start: @Model.TestingPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.TestingPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+
+                <div>
+                    <label>UAT Phase Timeline:</label>
+                    <label>start: @Model.UATPhaseStart.Value.ToShortDateString()</label>
+                    <label>finish: @Model.UATPhaseFinish.Value.ToShortDateString()</label>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>

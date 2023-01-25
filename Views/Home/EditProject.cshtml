@@ -1,0 +1,231 @@
+﻿@model ProjectManagement.Models.Core.Project
+
+	<div class="page-title">
+		<div class="title_left">
+			<h3>Edit Project</h3>
+		</div>
+
+		<div class="title_right">
+			<div class="col-md-5 col-sm-5  form-group pull-right top_search">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search for...">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Go!</button>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+	
+	<div class="row">
+		<div class="col-md-12 col-sm-12 ">
+			<div class="x_panel">
+				<div class="x_title">
+
+				</div>
+				<div class="x_content">
+					<br>
+
+					<form  method="post" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+
+						<input asp-for="ID" type="hidden" />
+
+						<div class="item form-group">
+							<label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+								Project Name <span class="required">*</span>
+							</label>
+							<div class="col-md-6 col-sm-6 ">
+								<input type="text" asp-for=Name id="first-name" required="required" class="form-control ">
+						    	<span asp-validation-for="Name" class="text-danger"></span>
+								
+							</div>
+						</div>
+						<div class="item form-group">
+							<label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">
+								ProjectType <span class="required">*</span>
+							</label>
+							<div class="col-md-6 col-sm-6 ">
+								<select asp-for=ProjecttypeID asp-items=@(new SelectList(ViewBag.ProjectTypes,"ID","Name")) class="form-control">
+												
+												</select>
+
+							<span asp-validation-for="ProjecttypeID" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="item form-group">
+						<label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Cost <span class="required">*</span></label>
+							<div class="col-md-6 col-sm-6 ">
+								<input id="middle-name" asp-for=Cost class="form-control" type="text" name="Cost">
+							     <span asp-validation-for="Cost" class="text-danger"></span>
+
+							</div>
+						</div>
+					
+						<div class="item form-group">
+							<label class="col-form-label col-md-3 col-sm-3 label-align">
+								Date Of Birth <span class="required">*</span>
+							</label>
+							<div class="col-md-6 col-sm-6 ">
+							<input id="birthday" asp-for="DeadLine" value="@Model.DeadLine.Value.ToShortDateString()" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" onfocus="this.type='date'" onclick="this.type='date'" onblur="this.type='text'">
+							<span asp-validation-for="DeadLine" class="text-danger"></span>
+								
+								
+							</div>
+						</div>
+
+		
+
+
+
+					@*Anlysyis*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							Analysis TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="AnalysisPhaseStart" value="@Model.AnalysisPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="AnalysisPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="AnalysisPhaseFinish" value="@Model.AnalysisPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="AnalysisPhaseFinish" class="text-danger"></span>
+
+						</div>
+
+
+					</div>
+
+				
+				
+
+					@*Estimation*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							Estimation TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="EstimationPhaseStart" value="@Model.EstimationPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="EstimationPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="EstimationPhaseFinish" value="@Model.EstimationPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="EstimationPhaseFinish" class="text-danger"></span>
+						</div>
+
+					</div>
+
+
+					@*BackendDevelopment*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							BackendDevelopment TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="BackendDevelopmentPhaseStart" value="@Model.BackendDevelopmentPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="BackendDevelopmentPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="BackendDevelopmentPhaseFinish" value="@Model.BackendDevelopmentPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="BackendDevelopmentPhaseFinish" class="text-danger"></span>
+						</div>
+
+					</div>
+
+					@*FronendDevelopment*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							Frontend Development TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="FronendDevelopmentPhaseStart" value="@Model.FronendDevelopmentPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="FronendDevelopmentPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="FronendDevelopmentPhaseFinish" value="@Model.FronendDevelopmentPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="FronendDevelopmentPhaseStart" class="text-danger"></span>
+						</div>
+
+					</div>
+
+					@*Testing*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							Testing TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="TestingPhaseStart" value="@Model.TestingPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="TestingPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="TestingPhaseFinish" value="@Model.TestingPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="TestingPhaseFinish" class="text-danger"></span>
+						</div>
+
+					</div>
+
+
+					@*UAT*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							UAT TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="UATPhaseStart" value="@Model.UATPhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="UATPhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="UATPhaseFinish" value="@Model.UATPhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="UATPhaseFinish" class="text-danger"></span>
+						</div>
+
+					</div>
+
+
+					@*Release*@
+					<div class="item form-group">
+						<label class="col-form-label col-md-3 col-sm-3 label-align">
+							Release TimeLine <span class="required">*</span>
+						</label>
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="ReleasePhaseStart" value="@Model.ReleasePhaseStart.Value.ToShortDateString()" class="date-picker form-control" placeholder="Start" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="ReleasePhaseStart" class="text-danger"></span>
+
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+							<input id="birthday" asp-for="ReleasePhaseFinish" value="@Model.ReleasePhaseFinish.Value.ToShortDateString()" class="date-picker form-control" placeholder="Finish" type="text" required="required" onfocus="this.type='date'"  onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
+							<span asp-validation-for="ReleasePhaseFinish" class="text-danger"></span>
+						</div>
+
+					</div>
+
+
+
+					<div class="ln_solid"></div>
+						<div class="item form-group">
+							<div class="col-md-6 col-sm-6 offset-md-3">
+								<button class="btn btn-primary" type="button">Cancel</button>
+								<button type="submit" class="btn btn-success">Submit</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+

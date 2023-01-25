@@ -1,0 +1,89 @@
+﻿@model RegisterVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login </title>
+
+    <!-- Bootstrap -->
+    <link href="~/Admin-Template/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/Admin-Template/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/Admin-Template/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="~/Admin-Template/vendors/animate.css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="~/Admin-Template/build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="login">
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
+    <div class="login_wrapper">
+        <div class="animate form login_form" style="background-color:white;padding:20px;border-radius:15px;">
+            <section class="login_content">
+                <form method="post">
+                    <h1>Create Account</h1>
+
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    <div>
+                        <input type="text" asp-for=Username class="form-control" placeholder="Username" required="" />
+
+                        <span class="text-danger" asp-validation-for="Username"></span>
+                    </div>
+                    <div>
+                        <input type="email" asp-for=Email class="form-control" placeholder="Email" required="" />
+                        <span class="text-danger" asp-validation-for="Email"></span>
+                    </div>
+                    <div>
+                        <input type="password" asp-for=Password class="form-control" placeholder="Password" required="" />
+                        <span class="text-danger" asp-validation-for="Password"></span>
+                    </div>
+                    <div>
+
+                        <label>Developer</label>
+                        <input checked asp-for=role type="radio" value="1" />
+
+                        <label>PM</label>
+                        <input asp-for=role type="radio" value="2" />
+
+
+                    </div>
+
+
+                    <div>
+                        <button class="btn btn-default submit">Submit</button>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="separator">
+                        <p class="change_link">
+                            Already Member?
+                            <a href="@Url.Action("SignIn","Auth")" class="to_register"> Create Account </a>
+                        </p>
+
+                        <div class="clearfix"></div>
+                        <br />
+
+                    </div>
+                </form>
+            </section>
+        </div>
+
+
+    </div>
+</body>
+</html>

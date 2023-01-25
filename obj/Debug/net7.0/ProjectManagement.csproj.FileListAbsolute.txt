@@ -1,0 +1,160 @@
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.AssemblyReference.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.AssemblyInfoInputs.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.AssemblyInfo.cs
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.CoreCompileInputs.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.RazorAssemblyInfo.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.RazorAssemblyInfo.cs
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\appsettings.Development.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\appsettings.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.staticwebassets.runtime.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.exe
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.deps.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.runtimeconfig.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.pdb
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Azure.Core.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Azure.Identity.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.ProjectManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectManagement.props
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectManagement.props
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectManagement.props
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.build.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.development.json
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\bundle\ProjectManagement.styles.css
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\projectbundle\ProjectManagement.bundle.scp.css
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.CopyComplete
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\refint\ProjectManagement.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.pdb
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.genruntimeconfig.cache
+D:\ProjectManagement\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ref\ProjectManagement.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Humanizer.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ProjectManagement\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\appsettings.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.staticwebassets.runtime.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.exe
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.deps.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.runtimeconfig.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\ProjectManagement.pdb
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Humanizer.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.AssemblyReference.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.AssemblyInfoInputs.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.AssemblyInfo.cs
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.CoreCompileInputs.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.RazorAssemblyInfo.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.RazorAssemblyInfo.cs
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.ProjectManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectManagement.props
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectManagement.props
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectManagement.props
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\bundle\ProjectManagement.styles.css
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\scopedcss\projectbundle\ProjectManagement.bundle.scp.css
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.csproj.CopyComplete
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\refint\ProjectManagement.dll
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.pdb
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ProjectManagement.genruntimeconfig.cache
+C:\Users\victoria_georgieva\Desktop\project management\Source\ProjectManagement\ProjectManagement\obj\Debug\net7.0\ref\ProjectManagement.dll
